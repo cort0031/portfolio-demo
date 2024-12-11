@@ -1,0 +1,163 @@
+/* General Reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Intro Section */
+.intro-section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.logo-placeholder {
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
+
+header ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+header a.active {
+  border-bottom: 2px solid white;
+}
+
+/* About Me Section */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.grid-item {
+  padding: 20px;
+}
+
+.about-content h2 {
+  font-size: 2rem;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills li {
+  font-size: 1.2rem;
+  margin: 5px 0;
+}
+
+/* Resume Page */
+.resume {
+  padding: 40px;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.resume h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.resume section {
+  margin-bottom: 40px;
+}
+
+.resume h2 {
+  font-size: 2rem;
+  border-bottom: 2px solid #333;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.resume p {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+/* Portfolio Page */
+.portfolio {
+  padding: 40px;
+  background-color: white;
+  color: #333;
+  text-align: center;
+}
+
+.portfolio h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.portfolio-sections {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.portfolio-sections .section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portfolio-sections .thumbnail {
+  width: 150px;
+  height: 150px;
+  background-color: lightgray;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+/* Footer Navigation */
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
